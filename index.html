@@ -10,7 +10,7 @@
 </head>
 <body>
   <header>
-    <img src="img/learn__logo.svg" alt="">
+    <img class="company__logo" src="img/learn__logo.svg" alt="">
     <div class="header__pc">
       <ul>
         <li>特徴</li>
@@ -51,7 +51,7 @@
             <img src="img/trouble__img01.svg" alt="">
           </div>
           <div class="contents-text">
-          <p>自分に最適な学習方法がわからない</p>
+          <p>自分に最適な学習方法が<br>わからない</p>
           </div>
         </div>
         <div class="contents__flex-wrap"><!-- element -->
@@ -59,7 +59,7 @@
             <img src="img/trouble__img02.svg" alt="">
           </div>
           <div class="contents-text">
-            <p>学習の質が上がらずに成長実感がない</p>
+            <p>学習の質が上がらずに<br>成長実感がない</p>
           </div>
         </div>
         <div class="contents__flex-wrap"><!-- element -->
@@ -67,7 +67,7 @@
             <img src="img/trouble__img03.svg" alt="">
           </div>
           <div class="contents-text">
-            <p>学習にやりがいがもてず継続できない。</p>
+            <p>学習にやりがいがもてず<br>継続できない。</p>
           </div>
         </div>
       </div>
@@ -76,9 +76,11 @@
       <h2 class="common-title">Learnで全て解決</h2><!-- element -->
       <div class="solution__flex-wrap"><!-- element -->
         <div class="solution__contents"><!-- element -->
-          <div class="solution__contents-title">
-            <h3>01</h3>
-            <h4>膨大なデータを分析し最適な学習を提案</h4>
+          <div class="solution__contents-text">
+            <div class="solution__contents-text--title">
+              <h3>01</h3>
+              <h4>膨大なデータを分析し最適な学習を提案</h4>
+            </div>
             <p>サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
           </div>
           <div class="solution__contents-img">
@@ -86,9 +88,11 @@
           </div>
         </div>
         <div class="solution__contents"><!-- element -->
-          <div class="solution__contents-title">
-            <h3>02</h3>
-            <h4>AIによるあなた専用のカリキュラムを作成</h4>
+          <div class="solution__contents-text">
+            <div class="solution__contents-text--title">
+              <h3>02</h3>
+              <h4>AIによるあなた専用の学習カリキュラムを作成</h4>
+            </div>
             <p>サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
           </div>
           <div class="solution__contents-img">
@@ -96,9 +100,11 @@
           </div>
         </div>
         <div class="solution__contents"><!-- element -->
-          <div class="solution__contents-title">
-            <h3>03</h3>
-            <h4>シンプルなUIで成長を可視化</h4>
+          <div class="solution__contents-text">
+            <div class="solution__contents-text--title">
+              <h3>03</h3>
+              <h4>シンプルなUIで成長を可視化</h4>
+            </div>
             <p>サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
           </div>
           <div class="solution__contents-img">
@@ -109,49 +115,88 @@
     </div>
     <div class="function"><!-- block 機能一覧-->
       <h2 class="common-title">機能一覧</h2><!-- element -->
-      <div class="contents__flex-wrap">
+      <div class="function__contents--flex-wrap">
         <div class="function__contents">
-          <div class="function__border">データ分析</div>
           <img src="img/feature__icon01.svg" alt="">
+          <p>データ分析</p>
         </div>
         <div class="function__contents">
-          <div class="function__border">データ分析</div>
           <img src="img/feature__icon02.svg" alt="">
+          <p>学習最適化AI</p>
         </div>
         <div class="function__contents">
-          <div class="function__border">データ分析</div>
           <img src="img/feature__icon03.svg" alt="">
+          <p>成長の可視化</p>
         </div>
         <div class="function__contents">
-          <div class="function__border">データ分析</div>
           <img src="img/feature__icon04.svg" alt="">
+          <p>学習分析</p>
         </div>
         <div class="function__contents">
-          <div class="function__border">データ分析</div>
           <img src="img/feature__icon05.svg" alt="">
+          <p>検索機能</p>
         </div>
         <div class="function__contents">
-          <div class="function__border">データ分析</div>
           <img src="img/feature__icon06.svg" alt="">
+          <p>タスク管理</p>
         </div>
       </div>
     </div>
     <div class="add"><!-- block 登録-->
       <p>成長が楽しくなる。これまでにない新しい学習サービス</p><!-- element -->
-      <a class="common__link" href="">新規登録</a><!-- element -->
-      <a class="common__link" href="">資料ダウンロード</a><!-- element -->
+      <div class="add__flex">
+        <a class="common__link--blue" href="">新規登録</a><!-- element -->
+        <a class="common__link--white" href="">資料ダウンロード</a><!-- element -->
+      </div>
     </div>
     <div class="intro"><!-- block 導入企業-->
-      <div class="contents-row"><!-- element -->
-        <img src="img/intro__company.jpg" alt="">
-        <img src="img/intro__company.jpg" alt="">
-        <img src="img/intro__company.jpg" alt="">
-        <img src="img/intro__company.jpg" alt="">
+      <h2 class="common-title">導入企業</h2><!-- element -->
+      <div class="contents__row"><!-- element -->
+        <div class="contents__card">
+          <img src="img/intro__company.jpg" alt="">
+          <p class="contents__card--tag">建築</p>
+          <div class="contents__card--text">
+            <h3>株式会社estra</h3>
+            <p>人々の成長が可視化されたことで成長を評価することができた</p>
+          </div>
+        </div>
+        <div class="contents__card">
+          <img src="img/intro__company.jpg" alt="">
+          <p class="contents__card--tag">建築</p>
+          <div class="contents__card--text">
+            <h3>株式会社estra</h3>
+            <p>人々の成長が可視化されたことで成長を評価することができた</p>
+          </div>
+        </div>
+        <div class="contents__card">
+          <img src="img/intro__company.jpg" alt="">
+          <p class="contents__card--tag">建築</p>
+          <div class="contents__card--text">
+            <h3>株式会社estra</h3>
+            <p>人々の成長が可視化されたことで成長を評価することができた</p>
+          </div>
+        </div>
+        <div class="contents__card">
+          <img src="img/intro__company.jpg" alt="">
+          <p class="contents__card--tag">建築</p>
+          <div class="contents__card--text">
+            <h3>株式会社estra</h3>
+            <p>人々の成長が可視化されたことで成長を評価することができた</p>
+          </div>
+        </div>
+        <div class="contents__card">
+          <img src="img/intro__company.jpg" alt="">
+          <p class="contents__card--tag">建築</p>
+          <div class="contents__card--text">
+            <h3>株式会社estra</h3>
+            <p>人々の成長が可視化されたことで成長を評価することができた</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class="cost"><!-- block 費用-->
       <h2 class="common-title">費用</h2><!-- element -->
-      <div class="container"><!-- block 費用-->
+      <div class="cost-container"><!-- block 費用-->
         <div class="cost__table"><!-- element -->
           <div class="cost__table-header">
             <p>Standardプラン</p>
@@ -167,12 +212,12 @@
             <a href="#">申し込む</a>
           </div>
         </div>
-        <div class="cost__table--pink"> <!-- modifier -->
-          <div class="pricing-table-header">
+        <div class="cost__table"> <!-- modifier -->
+          <div class="cost__table-header">
             <p>Standardプラン</p>
             <h2>¥10,000円/月</h2>
           </div>
-          <div class="pricing-table-content">
+          <div class="cost__table-content">
             <ul>
               <li>追加機能は最大5つまで</li>
               <li>最大6ヵ月のデータ分析</li>
@@ -203,41 +248,49 @@
     </div>
     <div class="question"><!-- block よくある質問-->
       <h2 class="common-title">よくある質問</h2><!-- element -->
-      <div class="container">
-        <div class="question__content">
-          <div class="question__content-q">よくある質問のタイトルが入ります。</div>
-          <div class="question__content-a">よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。</div>
-        </div>
-        <div class="question__content">
-          <div class="question__content-q">よくある質問のタイトルが入ります。</div>
-          <div class="question__content-a">よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。</div>
-        </div>
-        <div class="question__content">
-          <div class="question__content-q">よくある質問のタイトルが入ります。</div>
-          <div class="question__content-a">よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。</div>
-        </div>
-        <div class="question__content">
-          <div class="question__content-q">よくある質問のタイトルが入ります。</div>
-          <div class="question__content-a">よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。</div>
-        </div>
+      <div class="question-container">
+        <dl class="question__content">
+          <dt class="question__content-q">よくある質問のタイトルが入ります。</dt>
+          <dd class="question__content-a">よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。</dd>
+        </dl>
+        <dl class="question__content">
+          <dt class="question__content-q">よくある質問のタイトルが入ります。</dt>
+          <dd class="question__content-a">よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。</dd>
+        </dl>
+        <dl class="question__content">
+          <dt class="question__content-q">よくある質問のタイトルが入ります。</dt>
+          <dd class="question__content-a">よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。</dd>
+        </dl>
+        <dl class="question__content">
+          <dt class="question__content-q">よくある質問のタイトルが入ります。</dt>
+          <dd class="question__content-a">よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。よくある質問の回答がここには入ります。</dd>
+        </dl>
       </div>
     </div>
-    <div class="add"><!-- block 登録-->
+    <div class="add">
+      <!-- block 登録-->
       <p>まずは無料でお試ししてみませんか？</p><!-- element -->
-      <a class="common__link" href="">新規登録</a><!-- element -->
-      <a class="common__link" href="">資料ダウンロード</a><!-- element -->
+      <div class="add__flex">
+        <a class="common__link--blue" href="">新規登録</a><!-- element -->
+        <a class="common__link--white" href="">資料ダウンロード</a><!-- element -->
+      </div>
     </div>
     <div class="company"><!-- block 会社-->
-      <ul>
-        <li>サービス情報</li>
-        <li>サービス機能</li>
-        <li>導入事例</li>
-        <li>導入メリット</li>
-        <li>会社情報</li>
-        <li>よくある質問</li>
-        <li>プライバシーポリシー</li>
-        <li>個人情報の取り扱いについて</li>
-      </ul>
+      <div class="company__flex">
+        <div class="company__flex--logo">
+          <img class="company__logo" src="img/learn__logo.svg" alt="">
+        </div>
+        <ul>
+          <li>サービス情報</li>
+          <li>サービス機能</li>
+          <li>導入事例</li>
+          <li>導入メリット</li>
+          <li>会社情報</li>
+          <li>よくある質問</li>
+          <li>プライバシーポリシー</li>
+          <li>個人情報の取り扱いについて</li>
+        </ul>
+      </div>
     </div>
     <footer>
       <small>&copy; 2021 estra,inc</small>
